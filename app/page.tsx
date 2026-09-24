@@ -30,44 +30,14 @@ export default function Home() {
         </nav>
       </main>
       <footer className="w-full border-t border-black/10 px-6 py-4 text-center dark:border-white/10">
-        <nav className="flex flex-wrap items-center justify-center gap-x-6 gap-y-2 text-sm">
-          <span className="flex items-center gap-2">
-            <a
-              className="underline underline-offset-4"
-              href="https://panel.sjpark.dev/"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              ↗서비스 상태
-            </a>
-            <a
-              className="text-foreground/70 underline underline-offset-4"
-              href="https://panel.sjpark.dev/"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              panel.sjpark.dev
-            </a>
-          </span>
-          <span className="flex items-center gap-2">
-            <a
-              className="underline underline-offset-4"
-              href="https://sjpark.dev/"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              ↗사이트
-            </a>
-            <a
-              className="text-foreground/70 underline underline-offset-4"
-              href="https://sjpark.dev/"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              sjpark.dev
-            </a>
-          </span>
-        </nav>
+        <a
+          className="text-sm underline underline-offset-4"
+          href="https://panel.sjpark.dev/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          ↗서비스 상태
+        </a>
       </footer>
     </>
   );
